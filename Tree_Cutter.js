@@ -6701,7 +6701,7 @@ rtl.module("program",["System","Classes","SysUtils","Math","wasienv","Web","Brow
       var $Self = this;
       function DoStartWebAssembly() {
         pas.System.Writeln("Starting WebAssembly program from Tree_Cutter.wasm");
-        $Self.StartWebAssembly("Tree_Cutter.wasm?random_suffix_to_avoid_cache=XVIAAYHO387",true,rtl.createCallback($Self,"DoBeforeStart"),null);
+        $Self.StartWebAssembly("Tree_Cutter.wasm?random_suffix_to_avoid_cache=PEBR817",true,rtl.createCallback($Self,"DoBeforeStart"),null);
       };
       var Xhr = null;
       var ArrayResponse = null;
@@ -6728,7 +6728,7 @@ rtl.module("program",["System","Classes","SysUtils","Math","wasienv","Web","Brow
     this.DoRun = function () {
       var Xhr = null;
       var DataUrl = "";
-      DataUrl = "Tree_Cutter_data.zip?random_suffix_to_avoid_cache=XVIAAYHO387";
+      DataUrl = "Tree_Cutter_data.zip?random_suffix_to_avoid_cache=PEBR817";
       pas.System.Writeln("Downloading application data from " + DataUrl);
       Xhr = new XMLHttpRequest();
       Xhr.open("GET",DataUrl);
